@@ -16,7 +16,6 @@ public class Connector {
         System.out.println("Connection creating with " + url);
 
         HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
-        connection.setRequestProperty("Authorization", "token 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");
 
         connection.setRequestMethod("GET");
 
